@@ -8,7 +8,7 @@ const App = () => {
     <HashRouter>
       <ThemeButton />
       <Routes>
-        <Route path='/' element={<WelcomePage />} />
+        <Route index element={<WelcomePage />} />
       </Routes>
     </HashRouter>
   )
